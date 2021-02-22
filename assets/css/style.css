@@ -41,10 +41,10 @@
 }
 
 
-
-#letter {
-  font-size: 22px;
+#logomargin{
+  margin-top: 20px;
 }
+
 
 @media only screen and (max-width: 780px) {
   #letter {
@@ -56,4 +56,5 @@
   #letter {
     font-size: 12px;
   }
+
 }

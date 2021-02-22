@@ -59,7 +59,7 @@
 
 	// Add fixedMenu
 	$(window).on('scroll', function () {
-		if ($(window).scrollTop() > 250) {
+		if ($(window).scrollTop() > 1) {
 			$('.header-section').addClass('fixedMenu-bg');
 		} else {
 			$('.header-section').removeClass('fixedMenu-bg');
