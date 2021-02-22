@@ -12,3 +12,48 @@
 .tituloalbum {
     margin-top: 35px;
 }
+
+.current{
+    border: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-width: 1px;
+    color: #f5dc6e;
+}
+
+.current-flag{
+    border: solid;
+    border-width: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: #f5dc6e;
+}
+
+.fontletter{
+  font-size:23px
+}
+
+#presentionvideo {
+  max-width: 555px;
+  height: auto;
+  margin: auto;
+}
+
+
+
+#letter {
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 780px) {
+  #letter {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #letter {
+    font-size: 12px;
+  }
+}

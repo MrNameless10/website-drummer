@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from tunehill.netlify.app/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Feb 2021 16:27:36 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
        
-    <title>TuneHill - Music Band Template</title>
+    <title>Pedro Gonçalves de Oliveira - Drummer</title>
     
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -27,6 +26,8 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
     
 </head>
 <body id="home">
@@ -38,7 +39,6 @@
             <div class="rect2"></div>
             <div class="rect3"></div>
             <div class="rect4"></div>
-            <div class="rect5"></div>
         </div>
     </div>
 
@@ -48,17 +48,23 @@
             <div class="row">
                 <div class="col-lg-4 col-6">
                     <div class="logo">
-                        <a href="index-2.html">Pedro Gonçalves Oliveira<span></span></a>
+                        <a href="index.html">Pedro Gonçalves Oliveira<span></span></a>
                     </div>
                 </div>
                 <div class="col-lg-8 col-6 d-flex align-items-center justify-content-end">
                     <nav class="mainmenu">
                         <ul>
-                            <li class="nav-item"><a href="about.html">About</a></li>
-                            <li class="nav-item"><a href="single-album.html">Recordings</a></li>
-                            <li class="nav-item"><a href="#members">Members</a></li>
+                            <li class="nav-item"><a href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item current"><a href="about.html">About</a></li>
+                            <li class="nav-item"><a href="single-album.html">Discografia</a></li>
                             <li class="nav-item"><a href="#blog">Estúdio</a></li>
-                            <li class="nav-item"><a href="#contact">Contact</a></li>                            
+                            <li class="nav-item"><a href="#contact">Contact</a></li>
+                            <li class="nav-item" style="display: inline-flex">
+                              <a class= "current-flag" href="#contact"><img width="20px" src="https://www.countryflags.io/pt/flat/64.png"></a>
+                              <a style="margin-left: 3px" href="#contact"><img width="20px" src="https://www.countryflags.io/gb/flat/64.png"></a>
+                            </li>
+
                         </ul>
                     </nav>
 
@@ -74,12 +80,15 @@
                         </span>
                         <nav class="mobileMenu">
                             <ul>
-                                <li class="nav-item"><a href="#home">Home</a></li>
-                                <li class="nav-item"><a href="#history">About</a></li>
+                                <li class="nav-item"><a href="index.html">Home</a></li>
+                                <li class="nav-item"><a href="about.html">About</a></li>
                                 <li class="nav-item"><a href="single-album.html">Recordings</a></li>
-                                <li class="nav-item"><a href="#members">Members</a></li>
                                 <li class="nav-item"><a href="#blog">Estúdio</a></li>
-                                <li class="nav-item"><a href="#contact">Contact</a></li>    
+                                <li class="nav-item"><a href="#contact">Contact</a></li>     
+                                <li class="nav-item" style="display: inline-flex">
+                                  <a href="#contact"><img width="20px" src="https://www.countryflags.io/pt/flat/64.png"></a>
+                                  <a style="margin-left: 3px" href="#contact"><img width="20px" src="https://www.countryflags.io/gb/flat/64.png"></a>
+                                </li>
                             </ul>
                         </nav>                        
                     </div>
@@ -108,7 +117,7 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="section-title">
-                        <h2><i class="fa fa-history"></i> Biography</h2>
+                        <h2><i class="fa fa-music"></i> About</h2>
                     </div>
                 </div>
             </div>
@@ -116,10 +125,34 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="biography-description">
-                        <h4>History of Our Band</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta odit officiis eum voluptates quod? Similique, temporibus repudiandae! Quam reiciendis eius suscipit? Quidem nostrum ipsa velit quos aliquam inventore dolores.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta odit officiis eum voluptates quod? Similique, temporibus repudiandae! Quam reiciendis eius suscipit? Quidem nostrum ipsa velit quos aliquam inventore dolores.</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea voluptatem laborum dolores praesentium repellendus quasi molestiae distinctio consequatur numquam cum sequi minus quia quidem corrupti itaque, iure ab ipsum! Minus.</p>
+                        <h4>Pedro Gonçalves de Oliveira</h4>
+                        <p>Inicia o seu percurso musical em 1998 como autodidata
+                        e em 1999 dá o primeiro concerto. Posteriormente, estuda
+                        bateria e percussão com o professor José Pérez e
+                        frequenta a escola de jazz do Porto.
+                        </p>
+                      <p>Licenciado em Música, variante de Música Eletrónica
+                        e Produção Musical na Escola Superior de Artes Aplicadas
+                        de Castelo Branco. Tem colaborado e gravado com projetos
+                        multifacetados e de várias vertentes artísticas como
+                        ElRupe, Indigo Quintet, Unsafe Space Garden, Dada
+                        Garbeck, Hot Air Balloon, Mods colective, Sandy
+                        Kilpatrick, Mister Roland, Gnomon, Xícara, entre outros.
+                        </p>
+                      <p>Em teatro musicou produções com as Comédias do Minho,
+                        Teatro da Didascália, Companhia de Teatro de Braga e
+                        Jangada Teatro. É requisitado para participar em projetos
+                        artísticos que envolvem comunidades com Onda Amarela,
+                        Outra Voz e Caisa.
+                      </p>
+                      <p>É baterista e percussionista de sessão ao vivo e em
+                        estúdio. Leciona bateria e expressão rítmica nos
+                        distritos do Porto e Braga e tem estado ligado a conceitos
+                        musicais que utilizam sonoridades tradicionais
+                        portuguesas e no ensino da percussão tradicional dando
+                        formação, workshops, oficinas criativas e na criação de
+                        música e performances para percussão.
+                      </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -145,7 +178,7 @@
                 </div>
 
                 <span class="copyright-text">
-                    &copy; Copyright 2018, All Rights Reserved.
+                    &copy; Copyright© 2021 <a href="https://miguelfreitas.online/">Miguel Ângelo Freitas</a>, All Rights Reserved.
                 </span>
             </div>
         </div>
@@ -171,5 +204,5 @@
 
 </body>
 
-<!-- Mirrored from tunehill.netlify.app/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Feb 2021 16:27:36 GMT -->
+
 </html>
