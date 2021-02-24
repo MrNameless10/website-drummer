@@ -66,6 +66,7 @@ h2 {
 }
 h3 {
 	font-size: 28px;
+  font-weight: bold;
 }
 h4 {
 	font-size: 30px;
@@ -321,6 +322,9 @@ nav.mobileMenu ul li a:hover {
 .home-slide-1 {
     background-image: url('../img/slider-1.jpg');    
 }
+.home-slide-3 {
+    background-image: url('../img/banner.jpg');    
+}
 .home-slide-2 {
     background-image: url('../img/slider-2.jpg');
 }
@@ -340,7 +344,7 @@ nav.mobileMenu ul li a:hover {
 /* Latest Album CSS */
 .latest-album-thumb {
     overflow: hidden;
-    background-image: url( '../img/latest-album.jpg' );
+    background-image: url( '../img/albums/dadagarbeck-last.jpg' );
     background-size: cover;
     background-position: center center;
 }
