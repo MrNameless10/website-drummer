@@ -54,7 +54,7 @@
                 <div class="col-lg-8 col-6 d-flex align-items-center justify-content-end">
                     <nav class="mainmenu">
                         <ul>
-                            <li class="nav-item"><a href="index.html">Home</a>
+                            <li class="nav-item"><a href="home.html">Home</a>
                             </li>
                             <li class="nav-item"><a href="about.html">About</a></li>
                             <li class="nav-item current"><a href="recordings.html">Recordings</a></li>
@@ -80,14 +80,15 @@
                         </span>
                         <nav class="mobileMenu">
                             <ul>
-                                <li class="nav-item"><a href="index.html">Home</a></li>
-                                <li class="nav-item"><a href="sobre.html">Sobre</a></li>
-                                <li class="nav-item"><a href="discografia.html">Recordings</a></li>
-                                <li class="nav-item"><a href="estudio.html">Estúdio</a></li>
-                                <li class="nav-item"><a href="contactos.html">Contactos</a></li>     
+                                <li class="nav-item"><a href="home.html">Home</a>
+                                </li>
+                                <li class="nav-item"><a href="about.html">About</a></li>
+                                <li class="nav-item current"><a href="recordings.html">Recordings</a></li>
+                                <li class="nav-item"><a href="studio.html">Studio</a></li>
+                                <li class="nav-item"><a href="contacts.html">Contacts</a></li>
                                 <li class="nav-item" style="display: inline-flex">
                                   <a href="discografia.html"><img width="20px" src="https://www.countryflags.io/pt/flat/64.png"></a>
-                                  <a style="margin-left: 3px" href="recordings.html"><img width="20px" src="https://www.countryflags.io/gb/flat/64.png"></a>
+                                  <a class= "current-flag" style="margin-left: 3px" href="recordings.html"><img width="20px" src="https://www.countryflags.io/gb/flat/64.png"></a>
                                 </li>
                             </ul>
                         </nav>                        
@@ -141,37 +142,54 @@
     <!-- Discography Section -->
     <section class="discography-section section-padding grey-bg" id="albums">
         <div class="container">
-
+<!--
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="section-title">
                         <h2></i> Albums</h2>
                     </div>
                 </div>
-            </div>
+            </div>-->
 
             <div class="row">
 
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="section-title">
-                            <h2>2021</h2>
-                    </div>
                     <div class="single-album">
                         <div class="album-cover">
-                            <img src="assets/img/albums/Maisie Hope - Homens Como Antigamente.jpg" alt="Album One">
+                            <img src="assets/img/albums/The New Old.jpg" alt="Album One">
                             <div class="album-meta">
-                                <a href="single-album.html"><h6>Maisie Hope - Homens Como Antigamente <i class="fa fa-long-arrow-right"></i></h6></a>
+                              <a href="spotify:album:2GsoEqLMNcjOZvZLu1tzVc"><h6>Maisie Hope</h6></a>
+                                <a href="spotify:album:2GsoEqLMNcjOZvZLu1tzVc"><h6>Homens Como Antigamente <i class="fa fa-long-arrow-right"></i></h6></a>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-6">
-
-                        <div class="section-title">
-                            <h2>2020</h2>
+                    <div class="single-album">
+                        <div class="album-cover">
+                            <img src="assets/img/albums/Trampolim.jpg" alt="Album One">
+                            <div class="album-meta">
+                              <a href="spotify:album:2GsoEqLMNcjOZvZLu1tzVc"><h6>Maisie Hope</h6></a>
+                                <a href="spotify:album:2GsoEqLMNcjOZvZLu1tzVc"><h6>Homens Como Antigamente <i class="fa fa-long-arrow-right"></i></h6></a>
+                            </div>
                         </div>
+                    </div>
+                </div>
 
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-album">
+                        <div class="album-cover">
+                            <img src="assets/img/albums/Maisie Hope - Homens Como Antigamente.jpg" alt="Album One">
+                            <div class="album-meta">
+                              <a href="spotify:album:2GsoEqLMNcjOZvZLu1tzVc"><h6>Maisie Hope</h6></a>
+                                <a href="spotify:album:2GsoEqLMNcjOZvZLu1tzVc"><h6>Homens Como Antigamente <i class="fa fa-long-arrow-right"></i></h6></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/Unsafe Space Garden_cover art.jpg" alt="Album One">
@@ -181,11 +199,13 @@
                         </div>
                     </div>                    
                 </div>    
-                
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="section-title">
-                        <h2>&nbsp</h2>
-                    </div>
+                            
+
+            
+
+            
+
+              <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/Maria quê.jpg" alt="Album One">
@@ -196,9 +216,6 @@
                     </div>                    
                 </div>      
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="section-title">
-                            <h2>2019</h2>
-                        </div>
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/Dada Garbeck - Ever Coming.jpg" alt="Album One">
@@ -207,16 +224,9 @@
                             </div>
                         </div>
                     </div>                    
-                </div>                
-
-            </div>
-
-            <div class="row">
+                </div> 
 
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="section-title">
-                        <h2>&nbsp</h2>
-                    </div>
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/Trembling Giant.jpg" alt="Album One">
@@ -228,9 +238,6 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="section-title">
-                        <h2>&nbsp</h2>
-                    </div>
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/indigo quintet.jpg" alt="Album One">
@@ -242,9 +249,6 @@
                 </div>    
                 
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="section-title">
-                            <h2>2017</h2>
-                        </div>
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/Terra Batida - Falaciosa Realidade.jpg" alt="Album One">
@@ -253,11 +257,9 @@
                             </div>
                         </div>
                     </div>                    
-                </div>      
+                </div>
+
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="section-title">
-                        <h2>&nbsp</h2>
-                    </div>
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/Sandy Kilpatrick - Confessions from the south.jpg" alt="Album One">
@@ -268,14 +270,7 @@
                     </div>                    
                 </div>                
 
-            </div>
-
-            <div class="row">
-
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="section-title">
-                        <h2>&nbsp</h2>
-                    </div>
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/mister roland-2017.jpg" alt="Album One">
@@ -287,9 +282,6 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="section-title">
-                        <h2>&nbsp</h2>
-                    </div>
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/El Rupe - Suite 3 , 14.jpg" alt="Album One">
@@ -301,9 +293,6 @@
                 </div>        
                 
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="section-title">
-                        <h2>&nbsp</h2>
-                    </div>
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/Sofia-Sá-2017.jpg" alt="Album One">
@@ -315,9 +304,6 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="section-title">
-                        <h2>2016</h2>
-                    </div>
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/Hot Air Balloon - Behind The Walls.jpg" alt="Album One">
@@ -328,14 +314,8 @@
                     </div>                    
                 </div>                
 
-            </div>
-
-            <div class="row">
 
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="section-title">
-                        <h2>2015</h2>
-                    </div>
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/El Rupe - Walking Through.jpg" alt="Album One">
@@ -347,9 +327,6 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="section-title">
-                        <h2>&nbsp</h2>
-                    </div>
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/Xícara - Os Ais.jpg" alt="Album One">
@@ -361,9 +338,6 @@
                 </div>        
                 
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="section-title">
-                        <h2>2011</h2>
-                    </div>
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/Xícara - Xícara.jpg" alt="Album One">
@@ -375,9 +349,6 @@
                 </div>
                      
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="section-title">
-                        <h2>2010</h2>
-                    </div>
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/Contarolando por João Filipe.jpg" alt="Album One">
@@ -389,9 +360,6 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="section-title">
-                        <h2>2009</h2>
-                    </div>
                     <div class="single-album">
                         <div class="album-cover">
                             <img src="assets/img/albums/Gnomon - Jardim de Ferro.jpg" alt="Album One">
