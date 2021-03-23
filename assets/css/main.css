@@ -38,7 +38,7 @@ img {
 }
 a, a:hover {
     text-decoration: none;
-    color: #f5dc6e;
+    color: #d39e00;
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0 0 15px;
@@ -91,6 +91,37 @@ p {
 .grey-bg {
     background-color: #F6F6F6;
 }
+.grey-bg-1 {
+    background: url(../img/7.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.grey-bg-1::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.541);
+}
+
+.grey-bg-studio {
+    background: url(../img/6.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.grey-bg-studio::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.541);
+}
 .section-title {
     margin-bottom: 35px;
 }
@@ -99,11 +130,11 @@ p {
 }
 .section-title h2 i {
     padding-right: 10px;
-    color: #f5dc6e;
+    color: #d39e00;
 }
 .regular-btn {
     font-size: 16px;
-    background: #f5dc6e;
+    background: #d39e00;
     border-radius: 3px;
     display: block;
     text-align: center;
@@ -133,7 +164,7 @@ p {
 }
 
 .banner-section {
-	background: url(../img/banner.jpg);
+	background: url(../img/6.jpg);
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -153,7 +184,30 @@ p {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.712);
+}
+.banner-section-studio {
+	background: url(../img/6.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 350px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+}
+.banner-section-studio::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.712);
 }
 .banner-section h2 {
     color: #FFF;
@@ -176,7 +230,7 @@ p {
     letter-spacing: 3px;
 }
 .logo a span {
-    color: #f5dc6e;
+    color: #d39e00;
 }
 nav.mainmenu ul {
     margin: 0;
@@ -202,7 +256,7 @@ nav.mainmenu ul li a:before {
     content: "";
     width: 100%;
     height: 1px;
-    background: #f5dc6e;
+    background: #d39e00;
     left: 0;
     bottom: 0;
     -webkit-transform: scale(0);
@@ -317,23 +371,52 @@ nav.mobileMenu ul li a:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
     z-index: -1;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+.home-slide-contact {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    z-index: 1;
+    background-color: #222;
+}
+
+.home-slide-contact:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.24);
+
 }
 .home-slide-1 {
-    background-image: url('../img/20210223_155509.jpg');    
+    background-image: url('../img/1.jpg');    
 }
 .home-slide-3 {
-    background-image: url('../img/banner.jpg');    
+    background-image: url('../img/profile-2.jpg');    
 }
 .home-slide-2 {
-    background-image: url('../img/slider-2.jpg');
+    background-image: url('../img/2.jpg');
 }
+
 .home-slide-caption {
     color: #FFF;
 }
 .home-slide-caption h1 {
-    text-transform: capitalize;
+    font-weight: bold;
 }
 .home-slide-caption h5 {
     margin: 0;
@@ -543,12 +626,12 @@ nav.mobileMenu ul li a:hover {
     transition: 0.4s;
 }
 .latest-blog-heading h4 a:hover {
-    color: #f5dc6e;
+    color: #d39e00;
 }
 
 /* Contact Section CSS */
 .contact-section {
-    background: url(../img/contact.jpg);
+    background: url(../img/6.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
