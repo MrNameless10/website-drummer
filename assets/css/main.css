@@ -152,7 +152,6 @@ p {
 }
 .band-member, .tour-latest-one, .latest-album-thumb, .biography-image, .single-album, .tour-block, .gallery-image, .latest-single-blog {
     margin-bottom: 20px;
-    border: 5px solid #DDD;
     border-radius: 3px;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
